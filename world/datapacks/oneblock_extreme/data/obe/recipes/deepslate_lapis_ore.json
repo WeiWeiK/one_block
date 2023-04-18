@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "deepslate_ores",
+  "pattern": [
+    "S#S",
+    "#S#",
+    "S#S"
+  ],
+  "key": {
+    "#": {"item": "minecraft:lapis_lazuli"},
+    "S": {"item": "minecraft:deepslate"}
+  },
+  "result": {"item": "minecraft:deepslate_lapis_ore","count": 4}
+}

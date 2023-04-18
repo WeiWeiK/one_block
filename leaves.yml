@@ -1,0 +1,82 @@
+# Configuration file for Leaves.
+
+settings:
+  modify:
+    player-operation-limiter: false
+    redstone-shears-wrench: true
+    return-nether-portal-fix: false
+    shears-in-dispenser-can-zero-amount: false
+    instant-block-updater-reintroduced: false
+    flatten-triangular-distribution: false
+    use-vanilla-random: false
+    mc-technical-survival-mode: true
+    budding-amethyst-can-push-by-piston: false
+    player-can-edit-sign: true
+    bedrock-break-list: false
+    fakeplayer:
+      enable: true
+      unable-fakeplayer-names:
+      - player-name
+      limit: 10
+      prefix: ''
+      suffix: ''
+      always-send-data: true
+      resident-fakeplayer: false
+      open-fakeplayer-inventory: false
+    renewable-elytra: -1.0
+    fix-update-suppression-crash: true
+    snowball-and-egg-can-knockback-player: true
+    stackable-shulker-boxes: 'false'
+    stick-change-armorstand-arm-status: true
+    spectator-dont-get-advancement: false
+  performance:
+    fix:
+      fix-paper-6045: true
+    cache-climb-check: true
+    async-mob-spawning: false
+    optimize-chunk-ticking: true
+    remove:
+      tick-guard-lambda: true
+      get-nearby-players-streams: true
+      inventory-contains-iterators: true
+      range-check-streams-and-iterators: true
+    reduce-entity-fluid-lookup: true
+    strip-raytracing-for-entity: true
+    enable-suffocation-optimization: true
+    improve-fluid-direction-caching: true
+    inactive-goal-selector-disable: false
+    async-entity-tracker: false
+    async-pathfinding: false
+    entity-target-find-optimization: true
+    biome-temperatures-use-aging-cache: true
+    skip-clone-loot-parameters: true
+    check-spooky-season-once-an-hour: true
+    reduce-chuck-load-and-lookup: true
+    optimize-entity-coordinate-key: true
+    reduce-entity-allocations: true
+    dont-send-useless-entity-packets: true
+    use-more-thread-unsafe-random: true
+    skip-poi-find-in-vehicle: true
+    simpler-vanilla-shapeless-recipes: true
+  misc:
+    no-chat-sign: true
+    disable-method-profiler: true
+    extra-yggdrasil-service:
+      enable: false
+      urls:
+      - https://url.with.authlib-injector-yggdrasil
+  protocol:
+    carpet-alternative-block-placement: false
+    pca-sync-protocol: false
+    bbor-protocol: false
+    jade-protocol: false
+    appleskin-protocol: false
+    xaero-map-protocol: false
+    xaero-map-server-id: -555196008
+    pca-sync-player-entity: OPS
+config-version: 2
+world-settings:
+  default: {}
+  world: {}
+  world_nether: {}
+  world_the_end: {}

@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "E#E",
+    "#O#",
+    "E#E"
+  ],
+  "key": {
+    "#": {"item": "minecraft:deepslate_tiles"},
+    "E": {"item": "minecraft:end_stone_brick_stairs"},
+    "O": {"item": "minecraft:obsidian"}
+  },
+  "result": {"item": "minecraft:reinforced_deepslate","count": 1}
+}

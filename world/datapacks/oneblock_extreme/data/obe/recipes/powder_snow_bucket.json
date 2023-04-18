@@ -1,0 +1,13 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "###",
+        "###",
+        " B "
+    ],
+    "key": {
+        "#": {"item": "minecraft:snowball"},
+        "B": {"item": "minecraft:bucket"}
+     },
+    "result": {"item": "minecraft:powder_snow_bucket","count": 1}
+}

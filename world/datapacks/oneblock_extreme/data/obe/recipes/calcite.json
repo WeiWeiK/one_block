@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " # ",
+    "#B#",
+    " # "
+  ],
+  "key": {
+    "#": {"item": "minecraft:bone_meal"},
+    "B": {"item": "minecraft:diorite"}
+  },
+  "result": {"item": "minecraft:calcite","count": 1}
+}
